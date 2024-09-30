@@ -62,6 +62,8 @@ while x == 1:
             print(addanswer)
             a = int(input("input a number: "))
     elif compute == "divide":
+        divideanswer = divide(a, b)
+        answer = divide2(a, b)
         if a < b:
             divide2(a, b)
             answer = divide2(a, b)

@@ -54,6 +54,7 @@ while x == 1:
             print("Your answer is:", multanswer)
             a = int(input("input a number: "))
     elif compute == "add": #adding steps
+        add(a, b)
         addanswer = add(a, b)
         yesno = input("anything else? yes or no: ")
         if yesno == "yes": 
